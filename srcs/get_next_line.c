@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-
+#define BUFFER_SIZE 256
 int		new_line(char **str, char **line, int a)
 {
 	char *copy;
